@@ -50,6 +50,6 @@ app.get("/", function (req, res) {
 
 
 //set app to listen on port 3000
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log("server is running on port http://localhost:" + port);
 });
